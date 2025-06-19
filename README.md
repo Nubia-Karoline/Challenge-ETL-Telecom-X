@@ -1,4 +1,4 @@
-<h1 align="center"> 📊 Projeto Churn de Clientes – Telecom X </h1>
+<h1 align="center"> Projeto Churn de Clientes – Telecom X </h1>
 
 Este repositório contém soluções e análise para o desafio proposto pela Telecom X. A análise foi realizada sobre os dados de clientes da empresa com o objetivo de entender os principais fatores que contribuem para o cancelamento dos serviços.
 
@@ -14,10 +14,13 @@ Matplotlib & Seaborn
 Jupyter Notebook
 
 # 📂 Estrutura do Repositório
-├── Challenge_ETL_telecomX.ipynb              # Notebook com o pipeline de ETL e análise exploratória
-├── dataset/telecomx_data_gold.csv            # Pasta com os dados tratados 
-├── requirements.txt                          # Bibliotecas necessárias para rodar o projeto
-└── README.md                                 # Este arquivo
+◻ Challenge_ETL_telecomX.ipynb              # Notebook com o pipeline de ETL e análise exploratória
+
+◻ dataset/telecomx_data_gold.csv            # Pasta com os dados tratados 
+
+◻ requirements.txt                          # Bibliotecas necessárias para rodar o projeto
+
+◻ README.md                                 # Este arquivo
 
 # 🔍 Etapas Realizadas
 1. Importação e Tratamento dos Dados
@@ -36,6 +39,11 @@ Fatura diária
 3. Análise de Correlação
 Verificação da relação entre variáveis e a variável alvo.
 Criação de mapa de calor e gráficos de dispersão.
+
+# Análise de dados - Gráficos
+
+
+
 
 # 📈 Principais Insights
 
@@ -61,13 +69,16 @@ Construir dashboards interativos para acompanhamento contínuo de churn.
 # 🚀 Como Executar
 
 Clone o repositório:
-git clone https://github.com/albvieiraa/churn-de-clientes-telecom-x.git
+git clone https://github.com/Nubia-Karoline/Challenge-ETL-Telecom-X/blob/main/TelecomX_BR.ipynb
+
 Crie um ambiente virtual:
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate   # Windows
+
 Instale as dependências:
 pip install -r requirements.txt
+
 Execute o notebook:
 jupyter notebook
 
