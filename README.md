@@ -7,11 +7,11 @@ Este repositório contém soluções e análise para o desafio proposto pela Tel
 A Telecom X tem enfrentado um alto índice de cancelamento de clientes. Este projeto tem como objetivo analisar os dados fornecidos pela empresa, tratar as inconsistências e aplicar técnicas de Análise Exploratória de Dados (EDA) para extrair insights valiosos sobre o comportamento dos clientes que evadem.
 
 # 🛠️ Tecnologias Utilizadas
-Python 3.10+
-Pandas
-NumPy
-Matplotlib & Seaborn
-Jupyter Notebook
+Python,
+Pandas,
+NumPy,
+Matplotlib & Seaborn e
+Jupyter Notebook.
 
 # 📂 Estrutura do Repositório
 ◻ Challenge_ETL_telecomX.ipynb              # Notebook com o pipeline de ETL e análise exploratória
@@ -27,31 +27,38 @@ Jupyter Notebook
 Extração de dados de uma API em formato JSON.
 Normalização das colunas e correção de tipos de dados.
 Preenchimento e tratamento de valores nulos.
-Criação de novas features, como Daily_Charges.
 2. Análise Exploratória de Dados (EDA)
 Análise da variável alvo Churn, que representa se o cliente evadiu ou não.
 Geração de gráficos para entender o comportamento dos clientes por:
-Tipo de contrato
-Tempo de permanência (tenure)
-Serviços contratados
-Tipo de pagamento
-Fatura diária
+tipo de contrato,
+tempo de permanência (tenure),
+serviços contratados,
+tipo de pagamento e
+fatura diária.
 3. Análise de Correlação
 Verificação da relação entre variáveis e a variável alvo.
 Criação de mapa de calor e gráficos de dispersão.
 
-# Análise de dados - Gráficos
+# 📊 Análise de dados - Gráficos
 
-
+![image](https://github.com/user-attachments/assets/b73802c2-5427-48e9-9bb2-0e1160c52079)
+![image](https://github.com/user-attachments/assets/aa3e430f-3d91-4ccf-820f-2d14d4bcf014)
+![image](https://github.com/user-attachments/assets/9b003f0d-875b-4adb-8109-b931b45332f8)
+![image](https://github.com/user-attachments/assets/0afb427a-5260-4ecb-9111-18ba2a1569b8)
 
 
 # 📈 Principais Insights
 
-Clientes com contratos mensais têm maior chance de evadir.
-Menor tempo de permanência está fortemente relacionado ao churn.
-A ausência de serviços como suporte técnico, backup e segurança online está associada ao cancelamento.
-Clientes com faturas diárias mais altas também demonstram maior churn.
-Cobrança eletrônica (Paperless Billing) também está relacionada a maior evasão.
+◻ Clientes com contratos mensais têm maior chance de evadir.
+
+◻ Menor tempo de permanência está fortemente relacionado ao churn.
+
+◻ A ausência de serviços como suporte técnico, backup e segurança online está associada ao cancelamento.
+
+◻ Clientes com faturas diárias mais altas e demonstram maior churn.
+
+◻ Cobrança eletrônica (Paperless Billing), está relacionada a maior evasão.
+
 
 # ✅ Conclusões e Recomendações
 
